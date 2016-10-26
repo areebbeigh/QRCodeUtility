@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.areebbeigh.qrcodeutility.fragments.CreateFragment">
+
+    <LinearLayout
+        android:id="@+id/topSection"
+        style="?attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/color_picker_button"
+            style="?attr/buttonStyle"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:contentDescription="Color"
+            android:text="Color" />
+
+        <Button
+            android:id="@+id/chooserButton"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/createButton"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/CreateActivity_create_button" />
+    </LinearLayout>
+
+    <!-- This will be dynamically set depending upon to type of QR Code to generate -->
+    <RelativeLayout
+        android:id="@+id/inputSection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topSection"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>

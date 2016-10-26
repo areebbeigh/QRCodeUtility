@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_catg_scan_title">
+        <SwitchPreference
+            android:defaultValue="@string/pref_beep_default"
+            android:key="@string/pref_beep_key"
+            android:summary="@string/pref_description_beep"
+            android:title="@string/pref_title_beep" />
+
+        <SwitchPreference
+            android:defaultValue="@string/pref_vibrate_default"
+            android:key="@string/pref_vibrate_key"
+            android:summary="@string/pref_description_vibrate"
+            android:title="@string/pref_title_vibrate" />
+
+        <SwitchPreference
+            android:defaultValue="@string/pref_auto_copy_default"
+            android:key="@string/pref_auto_copy_key"
+            android:summary="@string/pref_description_auto_copy"
+            android:title="@string/pref_title_auto_copy" />
+
+        <SwitchPreference
+            android:defaultValue="@string/pref_keep_awake_default"
+            android:key="@string/pref_keep_awake_key"
+            android:summary="@string/pref_description_keep_awake"
+            android:title="@string/pref_title_keep_awake" />
+
+        <SwitchPreference
+            android:defaultValue="@string/pref_original_img_default"
+            android:key="@string/pref_original_img_key"
+            android:summary="@string/pref_description_original_img"
+            android:title="@string/pref_title_original_img" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_catg_create_title">
+        <ListPreference
+            android:defaultValue="@string/pref_ecl_default"
+            android:dialogTitle="@string/pref_title_ecl"
+            android:key="@string/pref_ecl_key"
+            android:title="@string/pref_title_ecl"
+            android:entries="@array/ecl_entries"
+            android:entryValues="@array/ecl_values"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

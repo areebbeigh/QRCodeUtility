@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared preferences keys -->
+    <!-- Scanner -->
+    <string name="pref_beep_key">beep</string>
+    <string name="pref_vibrate_key">vibrate</string>
+    <string name="pref_auto_copy_key">auto_copy</string>
+    <string name="pref_keep_awake_key">keep_awake</string>
+    <string name="pref_original_img_key">show_original_img</string>
+
+    <!-- Generator -->
+    <string name="pref_ecl_key">error_correction_level</string>
+
+    <!-- About -->
+    <string name="pref_noclick_key">noclick</string>
+    <string name="pref_version_info_key">version_info</string>
+    <string name="pref_dev_redirect_key">dev_redirect</string>
+    <string name="pref_icon_redirect_key">ic_redirect</string>
+    <string name="pref_testing_redirect_key">test_redirect</string>
+    <string name="pref_rate_app_key">rate_app</string>
+    <string name="pref_licenses_key">licenses_key</string>
+</resources>

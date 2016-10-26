@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorVectorToolbarButtons">#ffffff</color>
+    <color name="colorVectorCodeActionButtons">#ffffff</color>
+</resources>
+
+    <!--
+    <resources>
+        <color name="colorPrimary">#FF212121</color>
+        <color name="colorPrimaryDark">#FF000000</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="color_nav_header">#FF212121</color>
+    </resources>
+    -->

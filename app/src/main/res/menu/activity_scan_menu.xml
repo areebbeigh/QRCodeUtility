@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/browse_button"
+        android:title="@string/toolbar_browse_hint"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/flash_button"
+        android:title="@string/toolbar_torch_hint"
+        android:icon="@drawable/ic_flash_on"
+        app:showAsAction="ifRoom" />
+</menu>

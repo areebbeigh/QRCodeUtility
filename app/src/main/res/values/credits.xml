@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_sectn_title">About</string>
+    <string name="version_title">Version</string>
+    <string name="rate_app_text">Rate this app :)</string>
+    <string name="rate_app_uri">https://play.google.com/store/apps/details?id=com.areebbeigh.qrcodeutility</string>
+
+    <string name="credits_sectn_title">Credits</string>
+    <string name="app_dev_title">Areeb Beigh</string>
+    <string name="app_dev_summary">Application &amp; app icon</string>
+    <string name="app_dev_uri">https://goo.gl/8ZMVYp</string>
+
+    <string name="icon_components_title">Vecteezy</string>
+    <string name="icon_components_summary">Launcher icon components</string>
+    <string name="icon_components_uri">https://www.vecteezy.com/vector-art/115161-qr-code-and-barcode-icons-set</string>
+
+    <string name="app_testing_title">Haider Ali</string>
+    <string name="app_testing_summary">Testing</string>
+    <string name="app_testing_uri">https://www.facebook.com/hackesta.official/</string>
+
+    <string name="special_thanks_sectn_title">Special Thanks</string>
+    <string name="zxing_special_title">ZXing</string>
+    <string name="zxing_special_summary">Awesome barcode components</string>
+
+    <string name="legal_sectn_title">Application Information</string>
+    <string name="licenses_title">Licenses</string>
+
+    <string name="android_title">Android Open Source Project</string>
+    <string name="android_license">Apache License, Version 2.0</string>
+    <string name="android_uri">http://source.android.com</string>
+
+    <string name="zxing_title">Zxing</string>
+    <string name="zxing_license">Apache License, Version 2.0</string>
+    <string name="zxing_uri">https://github.com/zxing/zxing</string>
+
+    <string name="zxing_embedded_title">ZXing Android Embedded</string>
+    <string name="zxing_embedded_license">Apache License, Version 2.0</string>
+    <string name="zxing_embedded_uri">https://github.com/journeyapps/zxing-android-embedded</string>
+
+    <string name="vintage_chroma_title">VintageChroma</string>
+    <string name="vintage_chroma_license">Apache License, Version 2.0</string>
+    <string name="vintage_chroma_uri">https://github.com/MrBIMC/VintageChroma</string>
+</resources>

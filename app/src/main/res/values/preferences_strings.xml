@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings related to scanner settings -->
+    <string name="pref_title_beep">Beep</string>
+    <string name="pref_description_beep">Beep when a barcode is scanned</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_description_vibrate">Vibrate when a barcode is scanned</string>
+    <string name="pref_title_auto_copy">Auto Copy</string>
+    <string name="pref_description_auto_copy">Copy the scanned text automatically to your clipboard</string>
+    <string name="pref_title_keep_awake">Keep Awake</string>
+    <string name="pref_description_keep_awake">Keep the screen awake always</string>
+    <string name="pref_title_original_img">Show Original Image</string>
+    <string name="pref_description_original_img">Show an image captured by your camera while scanning the
+        QR Code as preview</string>
+
+    <!-- Strings related to generator settings -->
+    <string name="pref_title_ecl">Error correction level</string>
+    <string-array name="ecl_entries">
+        <!-- TODO: Fix this shit, displays 2 % signs if I use %% in dialog box, &#37; and/or formatted="false" doesn't work -->
+        <item>L (~ 7 percent)</item>
+        <item>M (~ 15 percent)</item>
+        <item>Q (~ 25 percent)</item>
+        <item>H (~ 30 percent)</item>
+    </string-array>
+
+    <string-array name="ecl_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

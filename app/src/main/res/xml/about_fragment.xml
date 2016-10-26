@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/about_sectn_title">
+        <Preference
+            android:key="@string/pref_version_info_key"
+            android:title="@string/version_title" />
+
+        <Preference
+            android:key="@string/pref_rate_app_key"
+            android:title="@string/rate_app_text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/credits_sectn_title">
+        <Preference
+            android:key="@string/pref_dev_redirect_key"
+            android:summary="@string/app_dev_summary"
+            android:title="@string/app_dev_title" />
+
+        <Preference
+            android:key="@string/pref_icon_redirect_key"
+            android:summary="@string/icon_components_summary"
+            android:title="@string/icon_components_title" />
+
+        <Preference
+            android:key="@string/pref_testing_redirect_key"
+            android:summary="@string/app_testing_summary"
+            android:title="@string/app_testing_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/special_thanks_sectn_title">
+        <Preference
+            android:key="@string/pref_noclick_key"
+            android:summary="@string/zxing_special_summary"
+            android:title="@string/zxing_special_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/legal_sectn_title">
+        <Preference
+            android:key="@string/pref_licenses_key"
+            android:title="@string/licenses_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

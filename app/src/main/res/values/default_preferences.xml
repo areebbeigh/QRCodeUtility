@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default preference values -->
+    <string name="pref_beep_default">true</string>
+    <string name="pref_vibrate_default">true</string>
+    <string name="pref_auto_copy_default">false</string>
+    <string name="pref_keep_awake_default">true</string>
+    <string name="pref_original_img_default">true</string>
+    <!-- 0 = L ~ 7% -->
+    <string name="pref_ecl_default">0</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_qr_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.areebbeigh.qrcodeutility.DetailActivity">
+
+    <include layout="@layout/app_toolbar" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- This view's image source gets replaced with the bitmap image of the image scanned -->
+            <ImageView
+                android:id="@+id/imagePreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:contentDescription="Preview image"
+                android:maxHeight="@dimen/qr_detail_icon_height"
+                android:maxWidth="@dimen/qr_detail_icon_width"
+                android:minHeight="@dimen/qr_detail_icon_height"
+                android:minWidth="@dimen/qr_detail_icon_width"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/contentTypeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="7dp"
+                android:text="@string/DetailActivity_heading" />
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:fadeScrollbars="false"
+                android:focusableInTouchMode="false"
+                android:maxLines="6"
+                android:padding="7dp"
+                android:scrollbars="vertical"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/additionalInfoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="7dp"
+                android:text="@string/qr_detail_ecl_text" />
+
+            <ListView
+                android:id="@+id/optionsMenu"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:fadeScrollbars="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

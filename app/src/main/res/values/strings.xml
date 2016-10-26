@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">QR Code Utility</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4632492519235325/3881041097</string>
+
+    <!-- Activity and fragment titles -->
+    <string name="title_activity_Scan">Scan</string>
+    <string name="title_activity_Detail">Barcode Details</string>
+    <string name="title_activity_Create">Create</string>
+    <string name="title_activity_settings">Preferences</string>
+    <string name="title_actvity_About">About</string>
+    <string name="title_activity_create_history">Create History</string>
+    <string name="title_activity_scan_history">Scan History</string>
+    <string name="fragment_history_options_title">History type</string>
+
+    <!-- Preference category title -->
+    <string name="pref_catg_about_title">About</string>
+    <string name="pref_catg_scan_title">Scanner Preferences</string>
+    <string name="pref_catg_create_title">Create Preferences</string>
+    <string name="pref_catg_credits_title">Credits</string>
+    <string name="pref_catg_app_info_title">Application Information</string>
+
+    <!-- Nav Drawer option titles -->
+    <string name="nav_menu_scan">Scan</string>
+    <string name="nav_menu_create">Create</string>
+    <string name="nav_menu_history">History</string>
+    <string name="nav_menu_preferences">Preferences</string>
+    <string name="nav_menu_about">About</string>
+
+    <!-- Nav Drawer hints -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Toolbar button hints -->
+    <string name="toolbar_copy_hint">Copy</string>
+    <string name="toolbar_browse_hint">Gallery</string>
+    <string name="toolbar_torch_hint">Torch</string>
+
+    <!-- DetailActivity Strings -->
+    <string name="scan_activity_help">Align the QR Code inside the frame above</string>
+    <string name="qr_detail_ecl_text">Error Correction Level:</string>
+    <string name="DetailActivity_heading">Text:</string>
+    <string name="copy_button">Copy Text</string>
+
+    <!-- CreateActivity Strings -->
+    <string name="CreateActivity_create_button">Create</string>
+
+    <!-- Button texts for different actions -->
+    <string name="button_ok">OK</string>
+    <string name="button_web_search">Search</string>
+    <string name="button_share_by_email">Share via E-Mail</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_dial">Dial</string>
+    <string name="button_email">Send E-Mail</string>
+    <string name="button_add_calendar">Add calendar</string>
+    <string name="button_wifi">Connect to network</string>
+    <string name="button_open_browser">Browse</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_mms">Send MMS</string>
+
+    <!-- Result titles -->
+    <string name="result_text">Text</string>
+    <string name="result_calendar">Calendar</string>
+    <string name="result_address_book">Contact</string>
+    <string name="result_email_address">E-Mail</string>
+    <string name="result_geo">Geolocation</string>
+    <string name="result_wifi">WiFi</string>
+    <string name="result_uri">URL</string>
+    <string name="result_tel">Telephone</string>
+    <string name="result_sms">SMS</string>
+
+    <!-- Textbox hints -->
+    <string name="hint_name">Name</string>
+    <string name="hint_organization">Organization</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_website">Website</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_email_subject">Subject</string>
+    <string name="hint_email_body">Body</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="hint_phone_number">Phone</string>
+    <string name="hint_message">Message</string>
+    <string name="hint_plain_text">Text</string>
+    <string name="hint_url">Website</string>
+    <string name="backpress_hint">Press again to exit</string>
+
+    <!-- Other stuff -->
+    <string name="url_default_text">http://</string>
+    <string name="wifi_changing_network">Connecting</string>
+    <string name="invalid_color_barcode">The resulting QR Code is not scannable, choose a darker color.</string>
+    <string name="img_desc_option_icon">Icon</string>
+    <string name="copy_success_msg">Copied text to clipboard</string>
+    <string name="image_preview_error">Couldn\'t get image preview</string>
+    <string name="scan_error_msg">Couldn\'t scan the image</string>
+    <string name="msg_intent_failed">Something went wrong</string>
+    <string name="msg_default_mms_subject">(no subject)</string>
+    <string name="toolbar_delete_hint">Delete</string>
+    <string name="toolbar_save_hint">Save</string>
+    <string name="toolbar_create_hint">Create</string>
+    <string name="hint_ssid">SSID</string>
+    <string name="hint_password">Password</string>
+    <string name="wpa_hint">WPA/WPA2</string>
+    <string name="hint_wep">WEP</string>
+    <string name="hint_no_encryption">Open</string>
+    <string name="hint_network_type">Network type</string>
+    <string name="nav_menu_remove_ads">Remove Ads</string>
+
+</resources>
