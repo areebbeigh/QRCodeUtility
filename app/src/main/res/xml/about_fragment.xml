@@ -37,6 +37,10 @@
 
     <PreferenceCategory android:title="@string/legal_sectn_title">
         <Preference
+            android:key="@string/pref_source_key"
+            android:title="@string/source_title"
+            android:summary="@string/source_summary" />
+        <Preference
             android:key="@string/pref_licenses_key"
             android:title="@string/licenses_title" />
     </PreferenceCategory>

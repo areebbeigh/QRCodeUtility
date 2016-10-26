@@ -125,6 +125,16 @@ public class AboutActivity extends AppCompatPreferenceActivity {
                         }
                     }
             );
+
+            findPreference(getString(R.string.pref_source_key)).setOnPreferenceClickListener(
+                    new Preference.OnPreferenceClickListener() {
+                        @Override
+                        public boolean onPreferenceClick(Preference preference) {
+                            openUri(getString(R.string.source_uri));
+                            return true;
+                        }
+                    }
+            );
         }
 
         private void openUri(String uri) {
