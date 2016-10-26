@@ -31,6 +31,8 @@ This application also uses code from:
   <li><a href="http://source.android.com">Android Open Source Project</a></li>
 </ul>
 
+<i>The word “QR Code” is registered trademark of <a href="http://www.denso-wave.com/en/en/">DENSO WAVE INCORPORATED</a> in Japan and other countries.</i>
+
 ##Other Stuff
 **Developer:** Areeb Beigh <www.areebbeigh.tk> <br/>
 **GitHub Repo:** https://github.com/areebbeigh/QRCodeUtility
