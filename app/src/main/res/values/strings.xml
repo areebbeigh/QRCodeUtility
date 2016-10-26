@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">QR Code Utility</string>
-    <string name="banner_ad_unit_id">ca-app-pub-4632492519235325/3881041097</string>
 
     <!-- Activity and fragment titles -->
     <string name="title_activity_Scan">Scan</string>
