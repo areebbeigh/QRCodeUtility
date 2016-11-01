@@ -31,6 +31,11 @@ This application also uses code from:
   <li><a href="http://source.android.com">Android Open Source Project</a></li>
 </ul>
 
+##Credits
+<ul>
+  <li><a href="https://github.com/haideralipunjabi/">Haider Ali</a> - Testing</li>
+</ul>
+
 <i>The word “QR Code” is registered trademark of <a href="http://www.denso-wave.com/en/en/">DENSO WAVE INCORPORATED</a> in Japan and other countries.</i>
 
 ##Other Stuff
