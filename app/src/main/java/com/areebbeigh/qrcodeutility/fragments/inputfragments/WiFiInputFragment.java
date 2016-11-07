@@ -45,7 +45,7 @@ public class WiFiInputFragment extends BaseInputFragment {
                 String ssid = ((EditText) findViewById(R.id.input_wifi_ssid)).getText().toString();
                 String passwd = "";
 
-                if (security != "")
+                if (!security.equals(""))
                     passwd = ((EditText) findViewById(R.id.input_wifi_password)).getText().toString();
 
                 WiFi wifi = new WiFi()
@@ -64,6 +64,7 @@ public class WiFiInputFragment extends BaseInputFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = super.onCreateView(inflater, container, savedInstanceState);
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.wifi_radio_group);
+        security = "WPA";
         radioGroup.setOnCheckedChangeListener(
                 new RadioGroup.OnCheckedChangeListener() {
                     @Override
@@ -76,9 +77,10 @@ public class WiFiInputFragment extends BaseInputFragment {
                                 break;
                             case R.id.wpa:
                                 security = "WPA";
+                                passwdInput.setEnabled(true);
+                                break;
                             case R.id.wep:
                                 security = "WEP";
-                            default:
                                 passwdInput.setEnabled(true);
                                 break;
                         }
