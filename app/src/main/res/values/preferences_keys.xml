@@ -20,4 +20,5 @@
     <string name="pref_rate_app_key">rate_app</string>
     <string name="pref_licenses_key">licenses_key</string>
     <string name="pref_source_key">source_key</string>
+    <string name="pref_privacy_key">privacy_key</string>
 </resources>

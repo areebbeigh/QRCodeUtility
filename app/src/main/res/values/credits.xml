@@ -27,6 +27,8 @@
     <string name="source_title">Source code</string>
     <string name="source_summary">View the application source code on GitHub</string>
     <string name="source_uri">https://github.com/areebbeigh/QRCodeUtility</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_uri">https://sites.google.com/view/qrcodeutility/privacy</string>
 
     <string name="android_title">Android Open Source Project</string>
     <string name="android_license">Apache License, Version 2.0</string>

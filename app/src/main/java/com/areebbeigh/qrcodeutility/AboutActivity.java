@@ -135,6 +135,16 @@ public class AboutActivity extends AppCompatPreferenceActivity {
                         }
                     }
             );
+
+            findPreference(getString(R.string.pref_privacy_key)).setOnPreferenceClickListener(
+                    new Preference.OnPreferenceClickListener() {
+                        @Override
+                        public boolean onPreferenceClick(Preference preference) {
+                            openUri(getString(R.string.privacy_uri));
+                            return true;
+                        }
+                    }
+            );
         }
 
         private void openUri(String uri) {
