@@ -3,7 +3,7 @@
 
 QRCodeUtility is an Android application for scanning and creating barcodes.
 
-##Features
+## Features
 <ul>
   <li>Easy to use</li>
   <li>Clean UI</li>
@@ -12,12 +12,12 @@ QRCodeUtility is an Android application for scanning and creating barcodes.
   <li>and more..</li>
 </ul>
 
-##Contributing
+## Contributing
 QRCodeUtility is my first android project and I'm sure others will find many things that can be improved in the application. I encourage
 you to fork this repo, make your changes (add yourself to the credits as well :wink:) and make a pull request with a short description
 of your addition(s) and/or improvement(s).
 
-##Acknowledgements
+## Acknowledgements
 This application uses the following libraries:
 
 <ul>
@@ -31,13 +31,13 @@ This application also uses code from:
   <li><a href="http://source.android.com">Android Open Source Project</a></li>
 </ul>
 
-##Credits
+## Credits
 <ul>
   <li><a href="https://github.com/haideralipunjabi/">Haider Ali</a> - Testing</li>
 </ul>
 
 <i>The word “QR Code” is registered trademark of <a href="http://www.denso-wave.com/en/en/">DENSO WAVE INCORPORATED</a> in Japan and other countries.</i>
 
-##Other Stuff
+## Other Stuff
 **Developer:** Areeb Beigh <www.areebbeigh.tk> <br/>
 **GitHub Repo:** https://github.com/areebbeigh/QRCodeUtility
